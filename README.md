@@ -1,7 +1,7 @@
 # 432-data
 
-Data and Code for PQHS/CRSP/MPHP 432 at CWRU can be obtained at this repository.
+Data and R code repository for 432 in Spring 2021
 
-- Hit the green Clone or Download button to obtain a zip file of all code and data available here.
+To obtain all of the data and code in this repository in a single zip file, click on the green button marked Code and click on Download ZIP.
 
-[Return to the Main Page for 432](https://github.com/THOMASELOVE/2020-432)
+Or, to download a single .Rmd or .csv file, follow [the instructions here](onefile.md). 
