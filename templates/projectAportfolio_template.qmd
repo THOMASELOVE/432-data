@@ -2,7 +2,7 @@
 title: "432 Project A Portfolio Template"
 subtitle: "Here's a place for a subtitle"
 author: "Your Name (and Your Partner's Name) Here"
-date: "`r Sys.Date()`"
+date: last-modified
 format: 
   html:
     toc: true
@@ -11,6 +11,7 @@ format:
     code-tools: true
     code-overflow: wrap
     embed-resources: true
+    date-format: iso
     theme: flatly  ## change the theme if you prefer
 ---
 
