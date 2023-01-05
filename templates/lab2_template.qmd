@@ -2,7 +2,7 @@
 title: "432 Lab 2 Template (replace these words)"
 subtitle: "Use your own subtitle, if you like."
 author: "Your Name Goes Here"
-date: "`r Sys.Date()`"
+date: last-modified
 format: 
   html:
     toc: true
@@ -11,6 +11,7 @@ format:
     code-tools: true
     code-overflow: wrap
     embed-resources: true
+    date-format: iso
     theme: default  ## change the theme if you prefer
 ---
 
