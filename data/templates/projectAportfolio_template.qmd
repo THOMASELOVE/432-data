@@ -1,0 +1,243 @@
+---
+title: "432 Project A Portfolio Template"
+subtitle: "Here's a place for a subtitle"
+author: "Your Name (and Your Partner's Name) Here"
+date: "`r Sys.Date()`"
+format: 
+  html:
+    toc: true
+    number-sections: true
+    code-fold: show
+    code-tools: true
+    code-overflow: wrap
+    embed-resources: true
+    theme: flatly  ## change the theme if you prefer
+---
+
+## R Packages and Setup {.unnumbered}
+
+```{r}
+#| message: false
+#| warning: false
+
+knitr::opts_chunk$set(comment = NA) # do not remove this
+
+library(janitor) # load other packages as desired
+
+library(tidyverse) # load tidyverse last
+
+theme_set(theme_bw()) # set theme for ggplots
+```
+
+# Data Source
+
+Follow the Project A instructions.
+
+# The Subjects
+
+Follow the Project A instructions.
+
+# Loading and Tidying the Data
+
+## Loading the Raw Data
+
+Follow the Project A instructions.
+
+## Cleaning the Data
+
+Follow the Project A instructions, using the subsections below that are necessary, and eliminating the others.
+
+### Selecting Variables We'll Use
+
+### Changing Variable Names
+
+### Sampling the Data
+
+### Converting Variable Types
+
+### Working with Categorical Predictors
+
+### Arranging the Tibble
+
+# The Tidy Tibble
+
+Follow the Project A instructions.
+
+## Listing the Tibble
+
+## Size and Identifiers
+
+## Save The Tibble
+
+# The Code Book
+
+## Defining the Variables
+
+## Numerical Description
+
+# Linear Regression Plans
+
+Follow the Project A instructions.
+
+## My First Research Question
+
+## My Quantitative Outcome
+
+## My Planned Predictors (Linear Model)
+
+# Logistic Regression Plans
+
+Follow the Project A instructions.
+
+## My Second Research Question
+
+## My Binary Outcome
+
+## My Planned Predictors (Logistic Model)
+
+# Linear Regression Analyses
+
+Follow the Project A instructions.
+
+## Missingness
+
+## Outcome Transformation
+
+## Scatterplot Matrix and Collinearity
+
+## Model A
+
+### Fitting Model A
+
+### Tidied Coefficient Estimates (Model A)
+
+### Summarizing Fit (Model A)
+
+### Regression Diagnostics (Model A)
+
+```{r}
+#| fig-height: 8
+
+# par(mfrow = c(2,2)); plot(modelA); par(mfrow = c(1,1))
+```
+
+## Non-Linearity
+
+## Model B
+
+### Fitting Model B
+
+### Tidied Coefficient Estimates (Model B)
+
+### Effects Plot for Model B
+
+### Summarizing Fit (Model B)
+
+### Regression Diagnostics (Model B)
+
+## Validating Models A and B
+
+### Validated $R^2$ statistics
+
+Model | Validated $R^2$
+-----: | --------
+A | 
+B | 
+
+## Final Linear Regression Model
+
+I prefer Model `XX`, because ...
+
+### Winning Model's Parameter Estimates
+
+### Effects Plot for Winning Model
+
+### Numerical Description of Effect Sizes
+
+### Nomogram of Winning Model
+
+### Prediction for a New Subject
+
+# Logistic Regression Analyses
+
+Follow the Project A instructions.
+
+## Missingness
+
+## Model Y
+
+### Fitting Model Y
+
+### Tidied Odds Ratio Estimates (Model Y)
+
+### Effects Plot (Model Y)
+
+### Summarizing Fit (Model Y)
+
+### Confusion Matrix (Model Y)
+
+My prediction rule is ...
+
+
+## Non-Linearity
+
+## Model Z
+
+### Fitting Model Z
+
+### Tidied Odds Ratio Estimates (Model Z)
+
+### Effects Plot (Model Z)
+
+### Summarizing Fit (Model Z)
+
+### Confusion Matrix (Model Z)
+
+As in Model Y, my prediction rule is ...
+
+## Validating Models Y and Z
+
+### Validated $R^2$ and $C$ statistics for each model
+
+## Final Logistic Regression Model
+
+I prefer Model `XX`, because ...
+
+### Winning Model's Parameter Estimates
+
+### Plot of Effect Sizes for Winning Model
+
+### Numerical Description of Effect Sizes
+
+### Plot of ROC Curve for Winning Model
+
+### Validated $R^2$ and $C$ statistic for Winning Model
+
+### Nomogram of Winning Model
+
+### Predictions for Two New Subjects
+
+# Discusssion
+
+Follow the Project A instructions.
+
+## Answering My Research Questions 
+
+## Thoughts on Project A
+
+# Affirmation
+
+Follow the Project A instructions. The text we want to see here is
+
+> I am certain that it is completely appropriate for these data to be shared with anyone, without any conditions. There are no concerns about privacy or security.
+
+# References
+
+1. Data Source description
+2. Others, as needed.
+
+# Session Information
+
+```{r}
+xfun::session_info()
+```
