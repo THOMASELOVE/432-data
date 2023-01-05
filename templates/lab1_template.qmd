@@ -1,0 +1,77 @@
+---
+title: "432 Lab 1 Template (replace these words)"
+subtitle: "Use your own subtitle, if you like."
+author: "Your Name Goes Here"
+date: "`r Sys.Date()`"
+format: 
+  html:
+    toc: true
+    number-sections: true
+    code-fold: show
+    code-tools: true
+    code-overflow: wrap
+    embed-resources: true
+    theme: default  ## change the theme if you prefer
+---
+
+## R Packages and Setup
+
+```{r}
+#| message: false
+#| warning: false
+
+knitr::opts_chunk$set(comment = NA) # do not remove this
+
+library(janitor) # load other packages as desired
+
+library(tidyverse) # load tidyverse last
+
+theme_set(theme_bw()) # set theme for ggplots
+```
+
+## Loading the Data
+
+```{r}
+oh22 <- 
+  read_csv("https://raw.githubusercontent.com/THOMASELOVE/432-data/master/data/oh_counties_2022.csv", show_col_types = FALSE) |>
+  clean_names() |>
+  mutate(fips = as.character(fips))
+
+dim(oh22)
+```
+
+Note that we should have 88 rows and 43 columns here.
+
+# Question 1
+
+Follow the instructions, and remove this line from your final submission.
+
+# Question 2
+
+Follow the instructions, and remove this line from your final submission.
+
+## Fitting `model1`
+
+```{r}
+model1 <- lm(obese_pct ~ 1, data = oh22) # obviously needs correction
+```
+
+
+## Explaining the `food_env` coefficient
+
+## Checking Regression Assumptions for `model1`
+
+```{r}
+#| fig-height: 8
+
+par(mfrow=c(2,2)); plot(model1); par(mfrow = c(1,1))
+```
+
+
+## Comparing `model1` to `model2`
+
+# Session Information
+
+```{r}
+xfun::session_info()
+```
