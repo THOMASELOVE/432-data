@@ -1,4 +1,4 @@
-# Detailed steps for downloading individual .csv or .Rmd files from Github
+# Detailed steps for downloading individual .csv or .qmd files from Github
 
 Below, we provide detailed steps for downloading such files ...
 
