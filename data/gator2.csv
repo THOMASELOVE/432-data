@@ -1,4 +1,4 @@
-id,food,size,sex,lake
+id,food,size,gender,lake
 1,fish,<2.3,m,hancock
 2,fish,<2.3,m,hancock
 3,fish,<2.3,m,hancock
