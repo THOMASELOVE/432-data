@@ -1,5 +1,5 @@
 ---
-title: "432 Lab 1 Template (replace these words)"
+title: "432 Lab 2 Template (replace these words)"
 subtitle: "Use your own subtitle, if you like."
 author: "Your Name Goes Here"
 date: last-modified
@@ -12,7 +12,7 @@ format:
     code-overflow: wrap
     embed-resources: true
     date-format: iso
-    theme: default  ## change the theme if you prefer
+    theme: sandstone  ## change the theme if you prefer
 ---
 
 ## R Packages and Setup {.unnumbered}
@@ -25,6 +25,7 @@ knitr::opts_chunk$set(comment = NA) # do not remove this
 
 library(janitor)
 library(naniar)
+library(readxl) # needed here to ingest the data from an Excel sheet
 
 # load other packages as desired
 
@@ -36,29 +37,15 @@ theme_set(theme_bw()) # set theme for ggplots
 
 ## Loading the Data {.unnumbered}
 
-```{r}
-chr2024 <- 
-  read_csv("https://raw.githubusercontent.com/THOMASELOVE/432-data/refs/heads/master/data/chr_2024.csv", show_col_types = FALSE) 
-
-dim(chr2024)
-```
-
 ::: {.callout-note}
 
-Note that we should have 3054 rows and 30 columns here.
+After downloading the `hbp_3024.xlsx` file to your computer, you should ingest the data using `read_xlsx()` from the `readxl` package. Be sure to handle the missingness properly.
 
-Delete this note and all other hints and instructions from this template before submitting your work.
+Note that the resulting tibble should have 3024 rows and 23 columns, and you should see missing data on 8 of the 23 variables, including for example, LDL cholesterol.
+
+Delete this note and all other instructions from this template before submitting your work.
 
 :::
-
-
-## Creating the Ohio sample {.unnumbered}
-
-```{r}
-ohio24 <- chr2024 |> filter(state == "OH")
-
-dim(ohio24)
-```
 
 
 # Question 1
@@ -75,6 +62,11 @@ Follow the instructions, and remove this line from your final submission.
 Follow the instructions, and remove this line from your final submission.
 :::
 
+## Part C
+
+::: {.callout-note}
+Follow the instructions, and remove this line from your final submission.
+:::
 
 # Question 2
 
@@ -84,25 +76,11 @@ Follow the instructions, and remove this line from your final submission.
 Follow the instructions, and remove this line from your final submission.
 :::
 
-### Fitting `model1`
-
-```{r}
-model1 <- lm(obesity ~ 1, data = ohio24) # obviously needs correction
-```
-
 ## Part B
 
 ::: {.callout-note}
 Follow the instructions, and remove this line from your final submission.
 :::
-
-### Checking Regression Assumptions for `model1`
-
-```{r}
-#| fig-height: 8
-
-check_model(model1)
-```
 
 ## Part C
 
