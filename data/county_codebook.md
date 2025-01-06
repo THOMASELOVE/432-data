@@ -14,7 +14,7 @@ Variable | NHANES | Summary | Definition | CHR 2024 describes | CHR 2015 describ
 `poor_ment` | v042_rawvalue | Poor mental health days | [Average number of mentally unhealthy days reported in past 30 days (age-adjusted).](https://www.countyhealthrankings.org/health-data/health-outcomes/quality-of-life/poor-mental-health-days?year=2024) | 2021 | 2006-2012
 `low_bwt` | v037_rawvalue | Low birthweight | [Proportion of live births with low birthweight (< 2,500 grams)](https://www.countyhealthrankings.org/health-data/health-outcomes/quality-of-life/low-birthweight?year=2024) | 2016-2022 | 2006-2012
 `smoking` | v009_rawvalue | Adult smoking | [Proportion of adults who are current smokers (age-adjusted)](https://www.countyhealthrankings.org/health-data/health-factors/health-behaviors/tobacco-use/adult-smoking?year=2024) | 2021 | 2006-2012
-`obesity` | v011_rawvalue | Adult obesity | [Proportion of the adult population (age 18 and older) that reports a body mass index (BMI) greater than or equal to 30 $kg/m^2$ (age-adjusted)](https://www.countyhealthrankings.org/health-data/health-factors/health-behaviors/diet-and-exercise/adult-obesity?year=2024) | 2021 | 2011
+`obesity` | v011_rawvalue | Adult obesity | [Proportion of the adult population (age 18 and older) that reports a body mass index (BMI) greater than or equal to 30 kg/m^2 (age-adjusted)](https://www.countyhealthrankings.org/health-data/health-factors/health-behaviors/diet-and-exercise/adult-obesity?year=2024) | 2021 | 2011
 `food_env` | v133_rawvalue | Food environment index | 
 `drinking` | v049_rawvalue | Excessive drinking |
 `sti` | v045_rawvalue | Sexually transmitted infections |
