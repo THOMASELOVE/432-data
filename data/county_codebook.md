@@ -16,22 +16,22 @@ Variable | NHANES | Summary | Definition | CHR 2024 describes | CHR 2015 describ
 `smoking` | v009_rawvalue | Adult smoking | [Proportion of adults who are current smokers (age-adjusted)](https://www.countyhealthrankings.org/health-data/health-factors/health-behaviors/tobacco-use/adult-smoking?year=2024) | 2021 | 2006-2012
 `obesity` | v011_rawvalue | Adult obesity | [Proportion of the adult population (age 18 and older) that reports a body mass index (BMI) greater than or equal to 30 kg/m2 (age-adjusted)](https://www.countyhealthrankings.org/health-data/health-factors/health-behaviors/diet-and-exercise/adult-obesity?year=2024) | 2021 | 2011
 `food_env` | v133_rawvalue | Food environment index | [Index of factors that contribute to a healthy food environment, from 0 (worst) to 10 (best)](https://www.countyhealthrankings.org/health-data/health-factors/health-behaviors/diet-and-exercise/food-environment-index?year=2024) | 2019 & 2021 | 2012
-`drinking` | v049_rawvalue | Excessive drinking | [Proportion of adults reporting binge or heavy drinking (age-adjusted).](https://www.countyhealthrankings.org/health-data/health-factors/health-behaviors/alcohol-and-drug-use/excessive-drinking?year=2024) | 2021 | 2006-2012
-`sti` | v045_rawvalue | Sexually transmitted infections | [Number of newly diagnosed chlamydia cases per 100,000 population.](https://www.countyhealthrankings.org/health-data/health-factors/health-behaviors/sexual-activity/sexually-transmitted-infections?year=2024) | 2021 | 2012
-`uninsured` | v085_rawvalue | Uninsured |
-`pcps` | v004_rawvalue | Primary care physicians |
-`prev_hosp` | v005_rawvalue | Preventable hospital stays |
-`mammog` | v050_rawvalue | Mammography screening |
-`hsgrad` | v021_rawvalue | High school graduation |
-`unemp` | v023_rawvalue | Unemployment
-`inc_ineq` | v044_rawvalue | Income inequality
-`social` | v140_rawvalue | Social associations | 
-`med_inc` | v063_rawvalue | Median household income |
-`sev_hous` | v136_rawvalue | Severe housing problems |
-`alone` | v137_rawvalue | Long commute - driving alone |
-`popn` | v051_rawvalue | Population |
-`age65` | v053_rawvalue | age 65 and older |
-`nh_white` | v126_rawvalue | Non-Hispanic white |
-`non_eng` | v059_rawvalue | Not proficient in English |
-`female` | v057_rawvalue | Female
-`rural` | v058_rawvalue | Rural
+`drinking` | v049_rawvalue | Excessive drinking | [Proportion of adults reporting binge or heavy drinking (age-adjusted)](https://www.countyhealthrankings.org/health-data/health-factors/health-behaviors/alcohol-and-drug-use/excessive-drinking?year=2024) | 2021 | 2006-2012
+`sti` | v045_rawvalue | Sexually transmitted infections | [Number of newly diagnosed chlamydia cases per 100,000 population](https://www.countyhealthrankings.org/health-data/health-factors/health-behaviors/sexual-activity/sexually-transmitted-infections?year=2024) | 2021 | 2012
+`uninsured` | v085_rawvalue | Uninsured | [Proportion of population under age 65 without health insurance](https://www.countyhealthrankings.org/health-data/health-factors/clinical-care/access-to-care/uninsured?year=2024) | 2021 | 2012
+`pcps` | v004_rawvalue | Primary care physicians | [Ratio of population to primary care physicians](https://www.countyhealthrankings.org/health-data/health-factors/clinical-care/access-to-care/primary-care-physicians?year=2024) | 2021 | 2012
+`prev_hosp` | v005_rawvalue | Preventable hospital stays | [Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees](https://www.countyhealthrankings.org/health-data/health-factors/clinical-care/quality-of-care/preventable-hospital-stays?year=2024) | 2021 | 2012
+`mammog` | v050_rawvalue | Mammography screening | [Proportion of female Medicare enrollees ages 65-74 who received an annual mammography screening](https://www.countyhealthrankings.org/health-data/health-factors/clinical-care/quality-of-care/mammography-screening?year=2024) | 2021 | 2012
+`hsgrad` | v021_rawvalue | High school graduation | [Proportion of ninth-grade cohort that graduates in four years](https://www.countyhealthrankings.org/health-data/health-factors/social-economic-factors/education/high-school-graduation?year=2024) | 2020-2021 vs. 2011-2012
+`unemp` | v023_rawvalue | Unemployment | [Proportion of population ages 16 and older unemployed but seeking work](https://www.countyhealthrankings.org/health-data/health-factors/social-economic-factors/employment/unemployment?year=2024) | 2022 | 2013
+`inc_ineq` | v044_rawvalue | Income inequality | [Ratio of household income at the 80th percentile to income at the 20th percentile](https://www.countyhealthrankings.org/health-data/health-factors/social-economic-factors/income/income-inequality?year=2024) | 2018-2022 | 2009-2013
+`social` | v140_rawvalue | Social associations | [Number of membership associations per 10,000 population](https://www.countyhealthrankings.org/health-data/health-factors/social-economic-factors/family-and-social-support/social-associations?year=2024) | 2021 | 2012
+`med_inc` | v063_rawvalue | Median household income | [The income where half of households in a county earn more and half of households earn less](https://www.countyhealthrankings.org/health-data/health-factors/social-economic-factors/income/median-household-income?year=2024) | 2018-2022 | 2013
+`sev_hous` | v136_rawvalue | Severe housing problems | [Proportion of households with at least 1 of 4 housing problems: overcrowding, high housing costs, lack of kitchen facilities, or lack of plumbing facilities](https://www.countyhealthrankings.org/health-data/health-factors/physical-environment/housing-and-transit/severe-housing-problems?year=2024) | 2016-2020 | 2007-2011
+`alone` | v137_rawvalue | Long commute - driving alone | [Among workers who commute in their car alone, the percentage that commute more than 30 minutes](https://www.countyhealthrankings.org/health-data/health-factors/physical-environment/housing-and-transit/long-commute-driving-alone?year=2024) | 2018-2022 | 2009-2013
+`popn` | v051_rawvalue | Population | [Resident population](https://www.countyhealthrankings.org/health-data/demographics/population?year=2024) | 2022 | 2013
+`age65` | v053_rawvalue | age 65 and older | [Proportion of population ages 65 and older](https://www.countyhealthrankings.org/health-data/demographics/65-and-older?year=2024) | 2022 | 2013
+`nh_white` | v126_rawvalue | Non-Hispanic white | [Proportion of population identifying as non-Hispanic white](https://www.countyhealthrankings.org/health-data/demographics/non-hispanic-white?year=2024) | 2022 | 2013
+`non_eng` | v059_rawvalue | Not proficient in English | [Proportion of population aged 5 and over who reported speaking English less than well](https://www.countyhealthrankings.org/health-data/demographics/not-proficient-in-english?year=2024) | 2018-2022 | 2009-2013
+`female` | v057_rawvalue | Female | [Proportion of population identifying as female](https://www.countyhealthrankings.org/health-data/demographics/female?year=2024) | 2022 | 2013
+`rural` | v058_rawvalue | Rural | [Proportion of population living in a census-defined rural area](https://www.countyhealthrankings.org/health-data/demographics/rural?year=2024) | 2020 | 2010
