@@ -4,7 +4,7 @@ Codebook for the `chr_2024` and `chr_2015` data
 
 Variable | NHANES | Summary | Definition | CHR 2024 describes | CHR 2015 describes
 :--------- | :--------: | :-------------------------: | :------------------------------------------------------------------------- | :----------: | :----------:
-`FIPS_code` | fipscode <br /> with `C-` | five-digit FIPS code | five-digit FIPS code preceded by `C-` | 3054 unique values | 3054 unique values
+`FIPS_code` | fipscode <br /> with `C-` | five-digit FIPS code | unique five-digit FIPS code preceded by `C-` | 3054 values | 3054 values
 `state` | state | [USPS state abbreviation](https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_abbreviations#Postal_codes) | 50 states + District of Columbia (DC) | 51 values | 51 values
 `county` | county | county name	| `chr_2024` and `chr_2015` contain the same counties | 3054 counties | 3054 counties
 `release` | year	| Release Year | Date for CHR Data Release | 2024 | 2015
