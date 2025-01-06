@@ -5,7 +5,7 @@ Codebook for the `chr_2024` and `chr_2015` data
 Variable | NHANES | Summary | Definition | CHR 2024 describes | CHR 2015 describes
 :--------- | :--------: | :-------------------------: | :------------------------------------------------------------------------- | :----------: | :----------:
 `FIPS_code` | fipscode <br /> with `C-` | five-digit FIPS code | five-digit FIPS code preceded by `C-` | 3054 values | 3054 values
-`state` | state | [USPS state abbreviation](https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_abbreviations#Postal_codes) | 50 states + District of Columbia (DC)
+`state` | state | [USPS state abbreviation](https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_abbreviations#Postal_codes) | 50 states + District of Columbia (DC) | 51 values | 51 values
 `county` | county | county name	| CHR 2024 and CHR 2015 contain the same 3054 counties | 3054 counties | 3054 counties
 `release` | year	| Release Year | Date for CHR Data Release | released 2024 | released 2015
 `prem_death` | v001_rawvalue <br /> $$x$$ 0.01 | Premature death	| [Years of potential life lost before age 75 per 1,000 population (age-adjusted)](https://www.countyhealthrankings.org/health-data/health-outcomes/length-of-life/premature-death?year=2024) | 2019-2021 | 2010-2012
