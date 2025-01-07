@@ -12,7 +12,7 @@ format:
     code-overflow: wrap
     embed-resources: true
     date-format: iso
-    theme: default  ## change the theme if you prefer
+    theme: flatly  ## change the theme if you prefer
 ---
 
 ## R Packages and Setup {.unnumbered}
