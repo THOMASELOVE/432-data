@@ -88,7 +88,45 @@ Follow the Project A instructions.
 
 ## My Quantitative Outcome
 
+### Numerical Summary of my linear outcome
+
+```{r}
+#| eval: false # note that you'll need to remove this line completely
+
+Hmisc::describe(yourdatasetname$youroutcomenamegoeshere)
+
+mosaic::favstats(yourdatasetname$youroutcomenamegoeshere)
+
+yourdatasetname |> tabyl(youroutcomenamegoeshere) |> adorn_pct_formatting() |>
+  arrange(desc(n)) |> head(5)
+```
+
+### Summary Statements about my outcome, insertyouroutcomenamehere
+
+My outcome is insertnamehere.
+
+- I have XXX observations and no missing values on insertnamehere.
+- I have XXX distinct values of insertnamehere.
+- The range is XX to XX, with mean XX and standard deviation XX insertunitshere.
+- The most common value for insertnamehere is XX, which occurs in XX% of my subjects. 
+
 ## My Planned Predictors (Linear Model)
+
+### Anticipated Direction of Effects
+
+### Missingness Summary
+
+```{r}
+#| eval: false  # you'll have to drop this line
+
+linear_model_predictors <- insertdetailshere
+
+miss_var_summary(linear_model_predictors) |> filter(n_miss > 0)
+miss_case_table(linear_model_predictors)
+```
+
+- I have complete data for all of the linear model predictors in XX (XX%) of the XX rows in my data.
+- I am missing XX values (XX%) for insertvariablenamehere.
 
 # Logistic Regression Plans
 
@@ -99,6 +137,22 @@ Follow the Project A instructions.
 ## My Binary Outcome
 
 ## My Planned Predictors (Logistic Model)
+
+### Anticipated Direction of Effects
+
+### Missingness Summary
+
+```{r}
+#| eval: false  # you'll have to drop this line
+
+logistic_model_predictors <- insertdetailshere
+
+miss_var_summary(logistic_model_predictors) |> filter(n_miss > 0)
+miss_case_table(logistic_model_predictors)
+```
+
+- I have complete data for all of the logistic model predictors in XX (XX%) of the XX rows in my data.
+- I am missing XX values (XX%) for insertvariablenamehere.
 
 # Linear Regression Analyses
 
