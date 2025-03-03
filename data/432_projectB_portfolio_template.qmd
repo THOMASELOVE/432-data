@@ -62,11 +62,25 @@ Use or edit the subsections below that are helpful and drop the rest.
 
 ## Numerical Description
 
-# Analyses
+# Analysis 1
 
-## Analysis 1
+## Managing Data for Analysis 1
 
-## Analysis 2
+## Outcome and Predictor Details
+
+## Regression Modeling
+
+## Further Details
+
+# Analysis 2
+
+## Managing Data for Analysis 1
+
+## Outcome and Predictor Details
+
+## Regression Modeling
+
+## Further Details
 
 # Conclusions and Discussion
 
