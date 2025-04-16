@@ -74,7 +74,7 @@ Use or edit the subsections below that are helpful and drop the rest.
 
 # Analysis 2
 
-## Managing Data for Analysis 1
+## Managing Data for Analysis 2
 
 ## Outcome and Predictor Details
 
