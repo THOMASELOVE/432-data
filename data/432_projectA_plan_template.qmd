@@ -1,0 +1,173 @@
+---
+title: "432 Project A Plan Template"
+subtitle: "Here's a place for a subtitle"
+author: "Your Name (and Your Partner's Name) Here"
+date: last-modified
+format: 
+  html:
+    toc: true
+    number-sections: true
+    code-fold: show
+    code-tools: true
+    code-overflow: wrap
+    embed-resources: true
+    date-format: iso
+    theme: spacelab  ## change the theme if you prefer
+---
+
+## R Packages and Setup {.unnumbered}
+
+```{r}
+#| message: false
+#| warning: false
+
+knitr::opts_chunk$set(comment = NA) # do not remove this
+
+library(janitor) 
+library(naniar)
+
+# load other packages as desired here
+
+library(easystats)
+library(tidyverse) # load tidyverse last
+
+theme_set(theme_bw()) # set theme for ggplots
+```
+
+# Data Source
+
+Follow the Project A instructions.
+
+# The Subjects
+
+Follow the Project A instructions.
+
+# Loading and Tidying the Data
+
+## Loading the Raw Data
+
+Follow the Project A instructions.
+
+## Cleaning the Data
+
+Follow the Project A instructions, using the subsections below that are necessary, and eliminating the others.
+
+### Selecting Variables We'll Use
+
+### Changing Variable Names
+
+### Sampling the Data
+
+### Converting Variable Types
+
+### Working with Categorical Predictors
+
+### Arranging the Tibble
+
+# The Tidy Tibble
+
+Follow the Project A instructions.
+
+## Listing the Tibble
+
+## Size and Identifiers
+
+## Save The Tibble
+
+# The Code Book
+
+## Defining the Variables
+
+## Numerical Description
+
+# Linear Regression Plans
+
+Follow the Project A instructions.
+
+## My First Research Question
+
+## My Quantitative Outcome
+
+### Numerical Summary of my linear outcome
+
+```{r}
+#| eval: false # note that you'll need to remove this line completely
+
+Hmisc::describe(yourdatasetname$youroutcomenamegoeshere)
+
+mosaic::favstats(yourdatasetname$youroutcomenamegoeshere)
+
+yourdatasetname |> tabyl(youroutcomenamegoeshere) |> adorn_pct_formatting() |>
+  arrange(desc(n)) |> head(5)
+```
+
+### Summary Statements about my outcome, insertyouroutcomenamehere
+
+My outcome is insertnamehere.
+
+- I have XXX observations and no missing values on insertnamehere.
+- I have XXX distinct values of insertnamehere.
+- The range is XX to XX, with mean XX and standard deviation XX insertunitshere.
+- The most common value for insertnamehere is XX, which occurs in XX% of my subjects. 
+
+## My Planned Predictors (Linear Model)
+
+### Anticipated Direction of Effects
+
+### Missingness Summary
+
+```{r}
+#| eval: false  # you'll have to drop this line
+
+linear_model_predictors <- insertdetailshere
+
+miss_var_summary(linear_model_predictors) |> filter(n_miss > 0)
+miss_case_table(linear_model_predictors)
+```
+
+- I have complete data for all of the linear model predictors in XX (XX%) of the XX rows in my data.
+- I am missing XX values (XX%) for insertvariablenamehere.
+
+# Logistic Regression Plans
+
+Follow the Project A instructions.
+
+## My Second Research Question
+
+## My Binary Outcome
+
+## My Planned Predictors (Logistic Model)
+
+### Anticipated Direction of Effects
+
+### Missingness Summary
+
+```{r}
+#| eval: false  # you'll have to drop this line
+
+logistic_model_predictors <- insertdetailshere
+
+miss_var_summary(logistic_model_predictors) |> filter(n_miss > 0)
+miss_case_table(logistic_model_predictors)
+```
+
+- I have complete data for all of the logistic model predictors in XX (XX%) of the XX rows in my data.
+- I am missing XX values (XX%) for insertvariablenamehere.
+
+
+# Affirmation
+
+Follow the Project A instructions. The text we want to see here is
+
+> I am certain that it is completely appropriate for these data to be shared with anyone, without any conditions. There are no concerns about privacy or security.
+
+# References
+
+1. Data Source description
+2. Others, as needed.
+
+# Session Information
+
+```{r}
+xfun::session_info()
+```

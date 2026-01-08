@@ -1,0 +1,105 @@
+---
+title: "432 Lab 2 Template (replace these words)"
+subtitle: "Use your own subtitle, if you like."
+author: "Your Name Goes Here"
+date: last-modified
+format: 
+  html:
+    toc: true
+    number-sections: true
+    code-fold: show
+    code-tools: true
+    code-overflow: wrap
+    embed-resources: true
+    date-format: iso
+    theme: zephyr  ## change the theme if you prefer
+---
+
+## R Packages and Setup {.unnumbered}
+
+```{r}
+#| message: false
+#| warning: false
+
+knitr::opts_chunk$set(comment = NA) # do not remove this
+
+library(janitor)
+library(naniar)
+library(readxl) # needed here to ingest the data from an Excel sheet
+
+# load other packages as desired
+
+library(easystats)
+library(tidyverse) # load tidyverse last
+
+theme_set(theme_bw()) # set theme for ggplots
+```
+
+## Loading the Data {.unnumbered}
+
+::: {.callout-note}
+
+After downloading the `hbp_3024.xlsx` file to your computer, you should ingest the data using `read_xlsx()` from the `readxl` package. Be sure to handle the missingness properly.
+
+Note that the resulting tibble should have 3024 rows and 23 columns, and you should see missing data on 8 of the 23 variables, including for example, LDL cholesterol.
+
+Delete this note and all other instructions from this template before submitting your work.
+
+:::
+
+
+# Question 1
+
+## Part A
+
+::: {.callout-note}
+Follow the instructions, and remove this line from your final submission.
+:::
+
+## Part B
+
+::: {.callout-note}
+Follow the instructions, and remove this line from your final submission.
+:::
+
+## Part C
+
+::: {.callout-note}
+Follow the instructions, and remove this line from your final submission.
+:::
+
+## Part D
+
+::: {.callout-note}
+Follow the instructions, and remove this line from your final submission.
+:::
+
+# Question 2
+
+## Part A
+
+::: {.callout-note}
+Follow the instructions, and remove this line from your final submission.
+:::
+
+## Part B
+
+::: {.callout-note}
+Follow the instructions, and remove this line from your final submission.
+:::
+
+## Part C
+
+::: {.callout-note}
+Follow the instructions, and remove this line from your final submission.
+:::
+
+::: {.callout-note}
+Don't forget to include a statement about AI prior to the Session Information section, if you used AI in building your response.
+:::
+
+# Session Information
+
+```{r}
+xfun::session_info()
+```

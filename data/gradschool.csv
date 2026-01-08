@@ -1,0 +1,531 @@
+student,apply,pared,public,gpa
+A001,very likely,0,0,3.41
+A002,unlikely,0,0,2.38
+A003,somewhat likely,0,0,3.35
+A004,unlikely,0,1,3.45
+A005,unlikely,1,1,3.27
+A006,somewhat likely,1,0,3.41
+A007,somewhat likely,0,0,2.83
+A008,unlikely,0,0,3.64
+A009,unlikely,0,0,2.52
+A010,unlikely,0,0,2.36
+A011,somewhat likely,0,0,2.74
+A012,unlikely,0,0,3.25
+A013,unlikely,1,0,3.43
+A014,unlikely,0,0,3.46
+A015,unlikely,0,0,3.55
+A016,unlikely,1,0,3.08
+A017,unlikely,1,0,3.62
+A018,unlikely,0,0,3.1
+A019,somewhat likely,0,0,2.96
+A020,somewhat likely,0,0,2.95
+A021,somewhat likely,0,0,3.53
+A022,unlikely,0,0,2.13
+A023,unlikely,0,1,2.8
+A024,unlikely,0,0,2.43
+A025,very likely,1,0,3.08
+A026,unlikely,0,0,2.47
+A027,very likely,0,0,2.88
+A028,unlikely,0,1,2.55
+A029,somewhat likely,0,0,3.68
+A030,unlikely,0,0,2.39
+A031,unlikely,0,0,2.69
+A032,unlikely,0,1,3.49
+A033,somewhat likely,0,0,3.58
+A034,unlikely,0,0,2.86
+A035,unlikely,0,0,3.69
+A036,unlikely,0,0,2.95
+A037,unlikely,0,0,2.18
+A038,somewhat likely,0,0,3.78
+A039,somewhat likely,0,1,3.01
+A040,unlikely,1,0,3.05
+A041,somewhat likely,0,0,2.52
+A042,somewhat likely,0,0,3.36
+A043,unlikely,0,0,1.99
+A044,somewhat likely,0,0,2.9
+A045,somewhat likely,0,0,2.25
+A046,unlikely,0,0,3.25
+A047,unlikely,0,0,3.64
+A048,somewhat likely,0,0,2.68
+A049,somewhat likely,1,1,3.34
+A050,unlikely,0,0,2.2
+A051,somewhat likely,1,1,3.29
+A052,unlikely,0,0,3.76
+A053,unlikely,0,0,2.27
+A054,somewhat likely,0,0,2.47
+A055,unlikely,0,0,3.48
+A056,somewhat likely,1,0,2.67
+A057,unlikely,1,1,3.18
+A058,unlikely,0,0,2.35
+A059,unlikely,0,0,2.99
+A060,unlikely,0,1,2.68
+A061,very likely,0,0,3.81
+A062,unlikely,0,0,3.24
+A063,somewhat likely,0,0,3.1
+A064,unlikely,0,1,2.46
+A065,unlikely,0,0,2.75
+A066,unlikely,0,0,3.55
+A067,unlikely,0,0,3.72
+A068,somewhat likely,0,0,2.61
+A069,somewhat likely,0,0,3.08
+A070,unlikely,0,0,2.71
+A071,somewhat likely,0,0,3.54
+A072,unlikely,0,0,3.48
+A073,somewhat likely,1,0,3.16
+A074,unlikely,0,0,3.46
+A075,very likely,0,0,3.86
+A076,somewhat likely,0,0,3.16
+A077,unlikely,0,0,3.68
+A078,very likely,0,1,3.03
+A079,very likely,1,0,3.76
+A080,unlikely,0,1,3.2
+A081,very likely,1,0,3.82
+A082,somewhat likely,0,0,3.38
+A083,very likely,0,0,3.88
+A084,unlikely,0,0,3.21
+A085,unlikely,0,1,2.62
+A086,unlikely,0,0,2.86
+A087,unlikely,0,1,3.42
+A088,unlikely,0,0,3.66
+A089,unlikely,0,0,2.46
+A090,somewhat likely,0,0,2.72
+A091,unlikely,0,0,2.33
+A092,somewhat likely,0,0,3.22
+A093,very likely,0,0,3.33
+A094,somewhat likely,0,0,2.6
+A095,unlikely,0,1,3.44
+A096,unlikely,0,0,3.23
+A097,somewhat likely,1,0,3.65
+A098,somewhat likely,1,0,3.42
+A099,unlikely,0,0,3.37
+A100,somewhat likely,0,0,3.8
+A101,somewhat likely,0,0,3.35
+A102,unlikely,0,0,2.54
+A103,unlikely,0,0,1.95
+A104,unlikely,0,0,3.77
+A105,somewhat likely,0,0,3.53
+A106,somewhat likely,0,0,3.3
+A107,unlikely,0,0,3.54
+A108,unlikely,0,1,3.3
+A109,unlikely,0,0,2.27
+A110,very likely,0,1,3.64
+A111,somewhat likely,1,1,3.3
+A112,unlikely,0,1,2.75
+A113,unlikely,0,1,3.23
+A114,unlikely,0,0,2.92
+A115,very likely,0,1,2.97
+A116,unlikely,0,0,3.52
+A117,unlikely,0,1,3.4
+A118,unlikely,0,0,3.18
+A119,unlikely,0,0,3.46
+A120,somewhat likely,0,0,3.42
+A121,unlikely,0,1,2.95
+A122,unlikely,0,0,3.01
+A123,very likely,0,1,3.01
+A124,somewhat likely,0,0,2.92
+A125,unlikely,0,0,3.21
+A126,unlikely,0,0,3.43
+A127,very likely,0,0,2.58
+A128,unlikely,0,0,2.11
+A129,unlikely,0,0,2.98
+A130,unlikely,0,0,2.63
+A131,somewhat likely,0,1,3.92
+A132,unlikely,1,0,2.33
+A133,unlikely,0,1,3.54
+A134,unlikely,0,0,2.65
+A135,somewhat likely,0,0,3.7
+A136,unlikely,0,0,2.08
+A137,unlikely,0,0,3.48
+A138,somewhat likely,0,0,2.82
+A139,somewhat likely,0,0,4
+A140,unlikely,0,0,1.92
+A141,unlikely,0,0,2.45
+A142,somewhat likely,0,0,3.26
+A143,very likely,0,0,2.63
+A144,very likely,1,1,3.48
+A145,unlikely,0,1,3.6
+A146,very likely,0,0,2.66
+A147,unlikely,0,0,2.88
+A148,somewhat likely,0,1,3.72
+A149,somewhat likely,0,0,3.76
+A150,unlikely,0,1,2.72
+A151,somewhat likely,1,1,3.09
+A152,unlikely,0,0,3.24
+A153,unlikely,0,1,2.4
+A154,unlikely,0,1,3.36
+A155,somewhat likely,1,0,3.01
+A156,somewhat likely,0,0,3.95
+A157,unlikely,0,1,2.81
+A158,unlikely,0,0,1.95
+A159,somewhat likely,0,0,2.24
+A160,somewhat likely,1,0,3.14
+A161,unlikely,0,0,2.11
+A162,somewhat likely,0,0,3.15
+A163,unlikely,0,0,3.14
+A164,somewhat likely,0,0,2.77
+A165,unlikely,0,0,3.31
+A166,somewhat likely,0,0,3.41
+A167,somewhat likely,0,0,3.83
+A168,somewhat likely,0,0,2.27
+A169,unlikely,0,1,2.84
+A170,somewhat likely,1,0,3.55
+A171,unlikely,1,1,3.55
+A172,unlikely,0,0,3.71
+A173,unlikely,0,0,3.25
+A174,very likely,1,1,3.76
+A175,very likely,0,1,2.8
+A176,unlikely,0,0,2.36
+A177,somewhat likely,1,0,2.61
+A178,somewhat likely,0,0,2.3
+A179,somewhat likely,0,0,3.76
+A180,somewhat likely,1,0,3.33
+A181,unlikely,0,0,3.52
+A182,very likely,1,1,3.3
+A183,very likely,1,0,3.57
+A184,unlikely,0,0,2.62
+A185,somewhat likely,0,0,3.37
+A186,unlikely,0,0,2.96
+A187,unlikely,0,0,2.97
+A188,unlikely,1,1,3.34
+A189,unlikely,0,0,2.16
+A190,unlikely,1,0,2.66
+A191,unlikely,0,0,3.53
+A192,unlikely,1,1,3.45
+A193,unlikely,0,1,3.06
+A194,unlikely,0,0,2.44
+A195,somewhat likely,1,1,3.49
+A196,unlikely,0,0,2.53
+A197,unlikely,0,0,2.16
+A198,very likely,1,0,3.22
+A199,unlikely,0,0,3.73
+A200,unlikely,0,0,2.07
+A201,somewhat likely,0,0,3.34
+A202,somewhat likely,0,0,3.63
+A203,unlikely,0,0,3.74
+A204,unlikely,0,0,3.34
+A205,unlikely,0,0,2.48
+A206,unlikely,0,0,2.82
+A207,very likely,0,0,2.81
+A208,unlikely,0,0,3.47
+A209,somewhat likely,0,0,3.66
+A210,unlikely,0,0,2.49
+A211,unlikely,0,0,3.57
+A212,unlikely,0,1,2.69
+A213,unlikely,0,0,2.2
+A214,somewhat likely,0,0,2.64
+A215,unlikely,0,1,3.58
+A216,unlikely,0,0,2.36
+A217,unlikely,0,1,3.04
+A218,unlikely,0,0,2.61
+A219,very likely,1,1,3.38
+A220,unlikely,1,1,3.47
+A221,somewhat likely,1,0,2.71
+A222,somewhat likely,0,0,2.24
+A223,unlikely,0,1,2.76
+A224,somewhat likely,0,0,3.39
+A225,somewhat likely,0,0,3.71
+A226,very likely,0,0,3.73
+A227,unlikely,0,0,2.69
+A228,unlikely,0,0,2.04
+A229,unlikely,0,1,3.02
+A230,unlikely,1,1,3.35
+A231,unlikely,0,0,2.49
+A232,unlikely,0,0,3.25
+A233,somewhat likely,0,0,2.51
+A234,very likely,0,1,3.3
+A235,very likely,0,0,3.43
+A236,unlikely,0,0,3.32
+A237,unlikely,0,1,3.14
+A238,somewhat likely,1,0,2.39
+A239,unlikely,0,0,3.67
+A240,unlikely,1,0,3.02
+A241,unlikely,0,0,3.49
+A242,very likely,0,0,3.48
+A243,somewhat likely,0,0,2.42
+A244,somewhat likely,0,0,2.84
+A245,somewhat likely,1,0,2.93
+A246,somewhat likely,1,1,3.5
+A247,unlikely,0,0,1.97
+A248,unlikely,0,1,2.71
+A249,somewhat likely,0,0,3.73
+A250,unlikely,0,1,3.22
+A251,very likely,0,1,3.72
+A252,very likely,0,0,2.42
+A253,somewhat likely,0,0,3.15
+A254,unlikely,1,0,2.48
+A255,unlikely,0,0,1.9
+A256,somewhat likely,0,0,2.95
+A257,unlikely,0,0,2.34
+A258,unlikely,0,0,2.14
+A259,unlikely,0,0,3.54
+A260,unlikely,0,0,3.03
+A261,very likely,0,0,2.96
+A262,unlikely,0,0,2.79
+A263,unlikely,0,0,3.1
+A264,unlikely,0,1,2.65
+A265,unlikely,0,0,3.37
+A266,very likely,1,0,3.33
+A267,somewhat likely,1,0,2.49
+A268,unlikely,0,0,2.77
+A269,unlikely,0,0,2.34
+A270,unlikely,0,0,3.21
+A271,unlikely,0,0,2.31
+A272,unlikely,0,0,3.06
+A273,somewhat likely,1,0,3.5
+A274,unlikely,0,1,2.95
+A275,somewhat likely,1,1,3.29
+A276,unlikely,0,1,3.14
+A277,somewhat likely,1,0,3.56
+A278,unlikely,0,1,2.91
+A279,somewhat likely,0,1,2.64
+A280,somewhat likely,1,1,3.32
+A281,very likely,1,0,3.98
+A282,unlikely,0,0,2
+A283,unlikely,0,1,3.49
+A284,somewhat likely,1,1,3.22
+A285,somewhat likely,1,0,2.9
+A286,unlikely,0,0,2.9
+A287,somewhat likely,0,0,3.89
+A288,very likely,1,0,3.73
+A289,unlikely,0,1,3.09
+A290,somewhat likely,0,0,3.26
+A291,unlikely,0,0,2.61
+A292,unlikely,1,1,2.96
+A293,unlikely,0,0,3.13
+A294,unlikely,0,0,2.82
+A295,unlikely,0,0,2.94
+A296,somewhat likely,0,0,3.62
+A297,unlikely,0,0,1.98
+A298,unlikely,0,0,2.85
+A299,unlikely,1,1,2.85
+A300,unlikely,0,0,3.21
+A301,somewhat likely,0,0,3.45
+A302,somewhat likely,1,0,3.35
+A303,very likely,1,0,3.63
+A304,somewhat likely,0,0,3.47
+A305,unlikely,0,0,2.61
+A306,unlikely,0,0,3.67
+A307,unlikely,0,0,3.47
+A308,somewhat likely,1,1,3.2
+A309,somewhat likely,1,0,2.39
+A310,unlikely,0,0,3.22
+A311,unlikely,0,1,2.91
+A312,somewhat likely,0,0,2.76
+A313,somewhat likely,1,0,2.86
+A314,unlikely,1,0,2.82
+A315,unlikely,0,0,3.23
+A316,somewhat likely,1,0,3.48
+A317,unlikely,0,0,2.75
+A318,somewhat likely,0,0,2.94
+A319,somewhat likely,0,0,2.51
+A320,unlikely,1,0,2.04
+A321,unlikely,0,0,3.49
+A322,unlikely,1,1,3.16
+A323,somewhat likely,0,0,2.78
+A324,unlikely,0,0,1.91
+A325,unlikely,0,1,3.3
+A326,unlikely,0,0,3.29
+A327,unlikely,0,0,3.27
+A328,somewhat likely,1,0,2.59
+A329,unlikely,0,0,3.02
+A330,unlikely,0,0,2.49
+A331,somewhat likely,0,0,2.3
+A332,somewhat likely,0,0,2.23
+A333,unlikely,0,1,3.04
+A334,somewhat likely,0,1,3.22
+A335,somewhat likely,0,0,2.6
+A336,unlikely,0,1,3.22
+A337,unlikely,0,0,3.45
+A338,somewhat likely,0,0,2.34
+A339,unlikely,0,0,3.63
+A340,very likely,0,0,3.13
+A341,unlikely,1,1,3.7
+A342,somewhat likely,0,0,3.27
+A343,unlikely,0,0,1.94
+A344,unlikely,0,0,3.32
+A345,very likely,0,1,3.44
+A346,unlikely,0,0,2.21
+A347,somewhat likely,0,1,3.88
+A348,unlikely,0,0,2.57
+A349,somewhat likely,0,0,2.76
+A350,unlikely,0,0,2.11
+A351,unlikely,0,1,2.98
+A352,unlikely,0,0,2.27
+A353,unlikely,0,1,3.09
+A354,unlikely,0,0,2.05
+A355,unlikely,0,0,3.13
+A356,very likely,1,1,3.57
+A357,somewhat likely,0,0,2.49
+A358,unlikely,0,1,3.42
+A359,somewhat likely,0,0,2.89
+A360,unlikely,0,0,3.64
+A361,unlikely,1,0,2.59
+A362,unlikely,0,0,2.52
+A363,very likely,0,1,3.64
+A364,unlikely,0,0,2
+A365,unlikely,0,1,3.44
+A366,somewhat likely,0,0,2.96
+A367,somewhat likely,0,1,3.33
+A368,somewhat likely,0,0,3.53
+A369,somewhat likely,0,0,2.38
+A370,unlikely,0,0,2.84
+A371,unlikely,0,0,3.66
+A372,unlikely,1,0,2.82
+A373,somewhat likely,1,0,2.58
+A374,very likely,0,1,2.91
+A375,very likely,0,0,2.63
+A376,unlikely,0,0,2.08
+A377,unlikely,0,0,2.58
+A378,unlikely,0,1,2.97
+A379,unlikely,0,0,3.77
+A380,somewhat likely,1,1,3.08
+A381,unlikely,0,0,3.18
+A382,somewhat likely,0,1,3.03
+A383,unlikely,0,1,3.59
+A384,unlikely,0,0,2.12
+A385,unlikely,0,1,3.16
+A386,somewhat likely,0,0,2.79
+A387,very likely,0,0,3.16
+A388,unlikely,0,0,1.93
+A389,somewhat likely,0,0,3.92
+A390,unlikely,0,0,1.93
+A391,somewhat likely,0,0,2.39
+A392,unlikely,0,1,2.46
+A393,unlikely,0,0,2.89
+A394,unlikely,1,0,3.38
+A395,unlikely,0,0,2.07
+A396,unlikely,0,1,2.52
+A397,somewhat likely,1,0,3.36
+A398,somewhat likely,0,1,2.69
+A399,somewhat likely,0,0,3.86
+A400,somewhat likely,0,0,2.33
+A401,somewhat likely,0,0,4
+A402,somewhat likely,0,0,3.81
+A403,unlikely,0,0,2.01
+A404,somewhat likely,0,0,2.8
+A405,somewhat likely,0,0,3.41
+A406,unlikely,0,0,2.31
+A407,somewhat likely,1,1,3.26
+A408,unlikely,0,0,2.82
+A409,very likely,1,1,3.31
+A410,unlikely,0,0,2.19
+A411,unlikely,0,0,2.1
+A412,somewhat likely,0,0,2.66
+A413,somewhat likely,1,1,3.4
+A414,very likely,1,0,3.71
+A415,somewhat likely,0,1,3.25
+A416,unlikely,0,0,2.8
+A417,unlikely,0,0,3.74
+A418,somewhat likely,1,0,3.17
+A419,very likely,1,0,3.18
+A420,unlikely,0,0,2.88
+A421,unlikely,1,1,3.44
+A422,very likely,0,0,2.42
+A423,very likely,0,0,3.54
+A424,somewhat likely,0,0,3.78
+A425,very likely,1,0,3.52
+A426,unlikely,0,0,3.58
+A427,somewhat likely,0,0,3.6
+A428,somewhat likely,1,0,3.44
+A429,somewhat likely,0,1,3.53
+A430,unlikely,0,0,2.61
+A431,unlikely,0,0,3.15
+A432,somewhat likely,0,0,3.82
+A433,somewhat likely,1,0,3.36
+A434,unlikely,1,1,2.8
+A435,unlikely,0,0,1.9
+A436,unlikely,0,0,2.6
+A437,unlikely,1,1,3.51
+A438,very likely,1,1,3.44
+A439,unlikely,0,0,3.24
+A440,unlikely,0,0,2.23
+A441,unlikely,0,0,3.09
+A442,unlikely,0,0,2.38
+A443,somewhat likely,0,0,3.2
+A444,unlikely,0,0,2.28
+A445,very likely,1,1,3.74
+A446,somewhat likely,0,0,3.52
+A447,very likely,1,1,3.45
+A448,unlikely,0,0,2.62
+A449,unlikely,0,1,2.77
+A450,somewhat likely,1,0,2.47
+A451,unlikely,0,0,3.3
+A452,somewhat likely,0,0,3.52
+A453,unlikely,1,0,2.13
+A454,somewhat likely,0,0,2.93
+A455,somewhat likely,1,0,2.61
+A456,somewhat likely,0,0,3.99
+A457,unlikely,0,0,2.59
+A458,somewhat likely,0,0,2.57
+A459,unlikely,0,0,2.56
+A460,unlikely,1,1,2.8
+A461,unlikely,0,1,3
+A462,unlikely,0,0,2.67
+A463,somewhat likely,0,0,2.25
+A464,somewhat likely,0,0,3.95
+A465,somewhat likely,1,1,3.13
+A466,unlikely,0,0,2.59
+A467,unlikely,0,1,3.41
+A468,unlikely,1,0,3.39
+A469,unlikely,0,0,3.48
+A470,somewhat likely,0,0,3.97
+A471,unlikely,0,1,2.38
+A472,unlikely,1,0,2.79
+A473,unlikely,0,1,2.79
+A474,somewhat likely,0,1,3.39
+A475,unlikely,0,0,3.3
+A476,unlikely,0,0,2.06
+A477,somewhat likely,0,0,2.88
+A478,unlikely,0,0,2.96
+A479,unlikely,0,1,2.86
+A480,somewhat likely,0,1,3.56
+A481,somewhat likely,0,0,2.5
+A482,unlikely,0,0,2.61
+A483,unlikely,0,1,2.4
+A484,somewhat likely,1,0,3.34
+A485,somewhat likely,0,0,3.27
+A486,somewhat likely,0,1,3.2
+A487,unlikely,0,0,2.97
+A488,unlikely,0,0,2.31
+A489,unlikely,0,0,1.99
+A490,unlikely,0,0,3.62
+A491,unlikely,0,1,3.29
+A492,somewhat likely,0,0,2.54
+A493,very likely,1,1,3.31
+A494,very likely,0,0,2.8
+A495,unlikely,0,0,2.71
+A496,very likely,0,0,2.65
+A497,unlikely,0,0,2.41
+A498,unlikely,0,0,2.85
+A499,unlikely,1,0,2.48
+A500,somewhat likely,1,0,3.17
+A501,somewhat likely,0,0,3.6
+A502,unlikely,0,0,1.9
+A503,somewhat likely,0,0,3
+A504,unlikely,0,0,3.57
+A505,unlikely,0,0,3.07
+A506,unlikely,0,0,2.11
+A507,unlikely,0,1,3.12
+A508,somewhat likely,0,0,2.89
+A509,very likely,0,1,3.67
+A510,unlikely,0,0,3.11
+A511,unlikely,1,1,3.68
+A512,somewhat likely,0,0,2.53
+A513,unlikely,0,1,2.5
+A514,somewhat likely,0,0,2.87
+A515,unlikely,0,0,3.42
+A516,unlikely,0,0,2.07
+A517,unlikely,1,1,3.8
+A518,unlikely,0,0,3.56
+A519,unlikely,0,0,3.33
+A520,unlikely,0,0,2.46
+A521,unlikely,0,0,2.65
+A522,unlikely,1,1,3.52
+A523,somewhat likely,1,0,3
+A524,somewhat likely,0,0,3.36
+A525,unlikely,0,1,3.13
+A526,unlikely,0,0,3.3
+A527,somewhat likely,0,0,3.27
+A528,somewhat likely,0,1,3.01
+A529,unlikely,0,0,2.22
+A530,unlikely,0,1,2.53

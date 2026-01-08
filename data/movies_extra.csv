@@ -1,0 +1,51 @@
+mov_id,movie,age,year,gen_1,mpa3,romance,action,reviews,ebert,bechdel
+N-01,Aliens,39,1986,F,R,0,1,142,3.5,1
+N-02,All About Eve,75,1950,F,Other,0,0,110,4,1
+N-03,Amélie,24,2001,F,R,1,0,231,3.5,1
+N-04,Body of Evidence,32,1993,M,R,0,0,38,0.5,1
+N-05,The Bodyguard,33,1992,M,R,1,0,50,3,0
+N-06,Catwoman,21,2004,F,PG-13,0,1,196,1,1
+N-07,City of God,23,2002,M,R,0,0,165,4,0
+N-08,"Crouching Tiger, Hidden Dragon",25,2000,M,PG-13,1,1,171,4,1
+N-09,Dangerous Beauty,27,1998,F,R,1,0,30,3.5,1
+N-10,Desert Flower,16,2009,F,R,0,0,18,2.5,1
+N-11,Django Unchained,13,2012,M,R,0,0,296,4,0
+N-12,Dune: Part 2,1,2024,M,PG-13,0,1,454,3.5,1
+N-13,The Exorcist,52,1973,F,R,0,0,177,4,1
+N-14,The Fall Guy,1,2024,M,PG-13,1,1,373,3.5,1
+N-15,Fargo,29,1996,M,R,0,0,110,4,0
+N-16,Fight Club,26,1999,M,R,0,0,185,2,0
+N-17,Flashdance,42,1983,F,R,1,0,49,1.5,1
+N-18,Forrest Gump,31,1994,M,PG-13,1,0,158,4,0
+N-19,"The Good, the Bad and the Ugly",59,1966,M,R,0,0,77,4,0
+N-20,Goodfellas,35,1990,M,R,0,0,165,4,1
+N-21,Heat,30,1995,M,R,0,1,150,3.5,0
+N-22,The Help,14,2011,F,PG-13,0,0,233,3,1
+N-23,Hercules,28,1997,M,Other,0,1,114,3.5,1
+N-24,Inside Out,10,2015,F,Other,0,0,385,4,1
+N-25,It's a Wonderful Life,79,1946,M,Other,1,0,98,4,1
+N-26,Kill Bill: Volume 1,22,2003,F,R,0,1,239,4,1
+N-27,A Knight's Tale,24,2001,M,PG-13,1,1,153,3,0
+N-28,The Last of the Mohicans,33,1992,M,R,1,1,126,3,0
+N-29,Léon: The Professional,31,1994,M,R,0,1,67,2.5,1
+N-30,Letters to Juliet,15,2010,F,Other,1,0,160,3,1
+N-31,The Lion King,31,1994,M,Other,0,0,176,3.5,0
+N-32,No Way Out,38,1987,M,R,1,1,48,4,0
+N-33,The Notebook,21,2004,F,PG-13,1,0,182,3.5,1
+N-34,Oldboy,22,2003,M,R,0,1,159,3,1
+N-35,Once Upon a Time ... in Hollywood,6,2019,M,R,0,0,580,4,1
+N-36,One Flew Over the Cuckoo's Nest,50,1975,M,R,0,0,120,3,0
+N-37,Oppenheimer,2,2023,M,R,0,0,509,4,0
+N-38,P.S. I Love You,18,2007,F,PG-13,1,0,104,2.5,1
+N-39,The Prestige,19,2006,M,PG-13,0,0,207,3,0
+N-40,Raising Arizona,38,1987,M,PG-13,0,0,65,1.5,1
+N-41,Red One,1,2024,M,PG-13,0,1,180,1.5,0
+N-42,Robin Hood: Prince of Thieves,34,1991,M,PG-13,1,1,57,2,1
+N-43,Schindler's List,32,1993,M,R,0,0,136,4,1
+N-44,Se7en,30,1995,M,R,0,0,153,3.5,0
+N-45,Shakespeare in Love,27,1998,F,R,1,0,146,4,1
+N-46,Spice World,28,1997,F,Other,0,0,69,0.5,1
+N-47,Spider-Man: Across the Spider-Verse,2,2023,M,Other,0,1,390,4,1
+N-48,Terminator 2: Judgment Day,34,1991,M,R,0,1,91,3.5,1
+N-49,Top Gun: Maverick,3,2022,M,PG-13,0,0,478,4,1
+N-50,Twilight,17,2008,F,PG-13,1,0,223,2.5,1
