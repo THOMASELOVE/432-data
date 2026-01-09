@@ -1,0 +1,338 @@
+---
+title: "Project A Template for 432 in Spring 2026"
+subtitle: "Insert Your Subtitle Here (No More than 120 characters)"
+author: "Your Name and Your Partner's Name"
+date: last-modified
+format: 
+  html:
+    toc: true
+    number-sections: true
+    code-fold: show
+    code-tools: true
+    code-overflow: wrap
+    embed-resources: true
+    date-format: iso
+    theme: zephyr  ## change the theme if you prefer
+---
+
+## R Packages and Setup {.unnumbered}
+
+```{r}
+#| message: false
+
+knitr::opts_chunk$set(comment = NA) # do not remove this
+
+library(janitor) 
+library(naniar)
+
+# load other packages as desired
+
+library(easystats)
+library(tidyverse) # load tidyverse last
+
+theme_set(theme_bw()) # set theme for ggplots
+```
+
+# Data Source
+
+Follow the Project A instructions.
+
+# The Subjects
+
+Follow the Project A instructions.
+
+# Loading and Tidying the Data
+
+## Loading the Raw Data
+
+Follow the Project A instructions.
+
+## Cleaning the Data
+
+Follow the Project A instructions, using the subsections below that are necessary, and eliminating the others.
+
+### Selecting Variables We'll Use
+
+### Changing Variable Names
+
+### Sampling the Data
+
+### Converting Variable Types
+
+### Working with Categorical Predictors
+
+### Arranging the Tibble
+
+# The Tidy Tibble
+
+Follow the Project A instructions.
+
+## Listing the Tibble
+
+## Size and Identifiers
+
+## Saving as an Rds file
+
+# The Code Book
+
+## Five Key Statements
+
+Follow the Project A instructions. See the [Project A Demonstration](https://thomaselove.github.io/432-2026/432_projectA_demo.html) for an example.
+
+## Describing the Variables
+
+Variables included in the `nh_demo` data are summarized and described in five different ways in the panel below. Click on the tab that interests you to see results. 
+
+:::{.callout-tip}
+
+Please provide, at minimum, the variable descriptions list and the data_codebook() results here. You can include the others if you like.
+
+:::
+
+::: {.panel-tabset}
+
+### Definitions
+
+Provide definitions of your variables in a table here. See the [Project A Demonstration](https://thomaselove.github.io/432-2026/432_projectA_demo.html) for a more detailed example.
+
+### `data_codebook()`
+
+Provide `data_codebook()` results for your tibble here.
+
+```{r}
+data_codebook(nh_demo)
+```
+
+### Other Tabs (optional)
+
+Add other tabs here if you like with things like `describe()`, `tbl_summary()` or Missingness information. See the [Project A Demonstration](https://thomaselove.github.io/432-2026/432_projectA_demo.html) for a detailed example.
+
+:::
+
+
+# Linear Regression Design
+
+Follow the Project A instructions.
+
+## My First Research Question
+
+## My Quantitative Outcome
+
+### Numerical Summary of my linear outcome
+
+```{r}
+#| eval: false # note that you'll need to remove this line completely
+
+Hmisc::describe(yourdatasetname$youroutcomenamegoeshere)
+
+mosaic::favstats(yourdatasetname$youroutcomenamegoeshere)
+
+yourdatasetname |> tabyl(youroutcomenamegoeshere) |> adorn_pct_formatting() |>
+  arrange(desc(n)) |> head(5)
+```
+
+### Summary Statements about my outcome, insertyouroutcomenamehere
+
+My outcome is insertnamehere.
+
+- I have XXX observations and no missing values on insertnamehere.
+- I have XXX distinct values of insertnamehere.
+- The range is XX to XX, with mean XX and standard deviation XX insertunitshere.
+- The most common value for insertnamehere is XX, which occurs in XX% of my subjects. 
+
+## Linear Model Predictor Candidates
+
+Follow the Project A instructions.
+
+### Anticipated Direction of Effects
+
+### Missingness Summary
+
+```{r}
+#| eval: false  # you'll have to drop this line
+
+linear_model_predictors <- insertdetailshere
+
+miss_var_summary(linear_model_predictors) |> filter(n_miss > 0)
+miss_case_table(linear_model_predictors)
+```
+
+- I have complete data for all of the linear model predictors in XX (XX%) of the XX rows in my data.
+- I am missing XX values (XX%) for insertvariablenamehere.
+
+# Logistic Regression Design
+
+Follow the Project A instructions.
+
+## My Second Research Question
+
+## My Binary Outcome
+
+## Logistic Model Predictor Candidates
+
+### Anticipated Direction of Effects
+
+### Missingness Summary
+
+```{r}
+#| eval: false  # you'll have to drop this line
+
+logistic_model_predictors <- insertdetailshere
+
+miss_var_summary(logistic_model_predictors) |> filter(n_miss > 0)
+miss_case_table(logistic_model_predictors)
+```
+
+- I have complete data for all of the logistic model predictors in XX (XX%) of the XX rows in my data.
+- I am missing XX values (XX%) for insertvariablenamehere.
+
+# Linear Regression Analyses
+
+Follow the Project A instructions.
+
+## Missingness
+
+## Outcome Transformation
+
+## Scatterplot Matrix and Collinearity
+
+## Model A
+
+### Fitting Model A
+
+### Tidied Coefficient Estimates (Model A)
+
+### Summarizing Fit (Model A)
+
+### Regression Diagnostics (Model A)
+
+```{r}
+#| fig-height: 8
+
+# check_model(modelA)
+```
+
+## Non-Linearity
+
+## Model B
+
+### Fitting Model B
+
+### Tidied Coefficient Estimates (Model B)
+
+### Effects Plot for Model B
+
+### Summarizing Fit (Model B)
+
+### Regression Diagnostics (Model B)
+
+## Validating Models A and B
+
+### Validated $R^2$ statistics
+
+Model | Validated $R^2$
+-----: | --------
+A | 
+B | 
+
+## Final Linear Regression Model
+
+I prefer Model `XX`, because ...
+
+### Winning Model's Parameter Estimates
+
+### Effects Plot for Winning Model
+
+### Numerical Description of Effect Sizes
+
+### Nomogram of Winning Model
+
+### Prediction for a New Subject
+
+# Logistic Regression Analyses
+
+Follow the Project A instructions.
+
+## Missingness
+
+## Model Y
+
+### Fitting Model Y
+
+### Tidied Odds Ratio Estimates (Model Y)
+
+### Effects Plot (Model Y)
+
+### Summarizing Fit (Model Y)
+
+### Confusion Matrix (Model Y)
+
+My prediction rule is ...
+
+
+## Non-Linearity
+
+## Model Z
+
+### Fitting Model Z
+
+### Tidied Odds Ratio Estimates (Model Z)
+
+### Effects Plot (Model Z)
+
+### Summarizing Fit (Model Z)
+
+### Confusion Matrix (Model Z)
+
+As in Model Y, my prediction rule is ...
+
+## Validating Models Y and Z
+
+### Validated $R^2$ and $C$ statistics for each model
+
+## Final Logistic Regression Model
+
+I prefer Model `XX`, because ...
+
+### Winning Model's Parameter Estimates
+
+### Plot of Effect Sizes for Winning Model
+
+### Numerical Description of Effect Sizes
+
+### Plot of ROC Curve for Winning Model
+
+### Validated $R^2$ and $C$ statistic for Winning Model
+
+### Nomogram of Winning Model
+
+### Predictions for Two New Subjects
+
+# Discusssion
+
+Follow the Project A instructions.
+
+## Answering My Research Questions 
+
+## Thoughts on Project A
+
+# Affirmation
+
+Follow the Project A instructions. The text we want to see here is
+
+> I am certain that it is completely appropriate for these data to be shared with anyone, without any conditions. There are no concerns about privacy or security.
+
+# References
+
+1. Data Source description
+2. Others, as needed.
+
+# Use of AI
+
+Follow the Project A instructions.
+
+# Session Information
+
+```{r}
+xfun::session_info()
+```
