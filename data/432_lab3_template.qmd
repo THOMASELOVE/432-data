@@ -58,6 +58,12 @@ Delete this note and all other instructions from this template before submitting
 
 ## Part C
 
+# Question 3
+
+## Part A
+
+## Part B
+
 ::: {.callout-note}
 Don't forget to include a statement about AI prior to the Session Information section, if you used AI in building your response.
 :::
@@ -67,3 +73,4 @@ Don't forget to include a statement about AI prior to the Session Information se
 ```{r}
 xfun::session_info()
 ```
+
