@@ -58,14 +58,14 @@ Delete this note and all other instructions from this template before submitting
 
 ## Part C
 
-# Question 3
+# AI Usage
 
-## Part A
+The most common response here would be:
 
-## Part B
+> I used no AI here, other than code completion and spell-checking in RStudio.
 
 ::: {.callout-note}
-Don't forget to include a statement about AI prior to the Session Information section, if you used AI in building your response.
+Please provide additional information about other AI tools you used. If the statement above applies to you, format this section properly to include only that statement, without the ">" at the beginning.
 :::
 
 # Session Information
@@ -73,4 +73,3 @@ Don't forget to include a statement about AI prior to the Session Information se
 ```{r}
 xfun::session_info()
 ```
-

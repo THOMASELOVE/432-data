@@ -68,12 +68,6 @@ Follow the instructions, and remove this line from your final submission.
 Follow the instructions, and remove this line from your final submission.
 :::
 
-## Part D
-
-::: {.callout-note}
-Follow the instructions, and remove this line from your final submission.
-:::
-
 # Question 2
 
 ## Part A
@@ -94,8 +88,14 @@ Follow the instructions, and remove this line from your final submission.
 Follow the instructions, and remove this line from your final submission.
 :::
 
+# AI Usage
+
+The most common response here would be:
+
+> I used no AI here, other than code completion and spell-checking in RStudio.
+
 ::: {.callout-note}
-Don't forget to include a statement about AI prior to the Session Information section, if you used AI in building your response.
+Please provide additional information about other AI tools you used. If the statement above applies to you, format this section properly to include only that statement, without the ">" at the beginning.
 :::
 
 # Session Information
