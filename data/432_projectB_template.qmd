@@ -1,0 +1,113 @@
+---
+title: "Project B Template for 432 in Spring 2026"
+subtitle: "Insert Your Subtitle Here (No More than 120 characters)"
+author: "Your Name and Your Partner's Name"
+date: last-modified
+format: 
+  html:
+    toc: true
+    number-sections: true
+    code-fold: show
+    code-tools: true
+    code-overflow: wrap
+    embed-resources: true
+    date-format: iso
+    theme: pulse  ## change the theme if you prefer
+---
+
+## R Packages and Setup {.unnumbered}
+
+```{r}
+#| message: false
+#| warning: false
+
+knitr::opts_chunk$set(comment = NA) # do not remove this
+
+library(janitor) 
+library(naniar)
+library(conflicted) 
+
+# load other packages as desired
+
+library(easystats)
+library(tidyverse) # load tidyverse last
+
+theme_set(theme_lucid()) # set theme for ggplots
+```
+
+# Background
+
+# Research Questions
+
+# Data Ingest and Management
+
+## Loading the Raw Data
+
+## Cleaning the Data
+
+Use or edit the subsections below that are helpful and drop the rest.
+
+### Selecting Variables We'll Use
+
+### Changing Variable Names
+
+### Sampling the Data
+
+### Converting Variable Types
+
+### Working with Categorical Predictors
+
+### Arranging the Tibble
+
+## Print and Save The Final Tibble
+
+# Code Book and Description
+
+## Defining the Variables
+
+## Numerical Description
+
+# Analysis 1
+
+## Managing Data for Analysis 1
+
+## Outcome and Predictor Details
+
+## Regression Modeling
+
+## Further Details
+
+# Analysis 2
+
+## Managing Data for Analysis 2
+
+## Outcome and Predictor Details
+
+## Regression Modeling
+
+## Further Details
+
+# Conclusions and Discussion
+
+## Answering My Research Questions 
+
+# References and Acknowledgments
+
+## References
+
+1. Data Source description
+2. Others, as needed.
+
+## Acknowledgments
+
+Thank anyone you should thank.
+
+# Use of AI
+
+Follow the same advice as the Project A instructions.
+
+# Session Information
+
+```{r}
+xfun::session_info()
+```
