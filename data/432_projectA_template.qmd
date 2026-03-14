@@ -308,7 +308,7 @@ I prefer Model `XX`, because ...
 
 ### Predictions for Two New Subjects
 
-# Discusssion
+# Discussion
 
 Follow the Project A instructions.
 
